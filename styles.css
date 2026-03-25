@@ -449,3 +449,26 @@ ul {
 li {
     margin-bottom: 0.5rem;
 }
+
+.Title,
+.sub-Title,
+.sub-info{
+    color:black;
+}
+
+.close-option{
+    color:#dc2626;
+}
+
+.add-info{
+    color: #838282;
+}
+
+.sub-nav{
+    background-color:white;
+}
+
+.btn-clr{
+    background-color: #3b82f6;
+    color: white;
+}

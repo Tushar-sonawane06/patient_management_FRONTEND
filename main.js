@@ -108,19 +108,19 @@ function displayPatients(patients) {
             <div class="grid grid-cols-2 gap-3 mb-4 text-sm">
                 <div class="bg-blue-50 p-3 rounded-lg">
                     <p class="text-gray-600 text-xs">Age</p>
-                    <p class="font-bold text-lg">${patient.age}</p>
+                    <p class="sub-info font-bold text-lg">${patient.age}</p>
                 </div>
                 <div class="bg-green-50 p-3 rounded-lg">
                     <p class="text-gray-600 text-xs">City</p>
-                    <p class="font-bold">${patient.city}</p>
+                    <p class="sub-info font-bold">${patient.city}</p>
                 </div>
                 <div class="bg-purple-50 p-3 rounded-lg">
                     <p class="text-gray-600 text-xs">BMI</p>
-                    <p class="font-bold">${patient.bmi}</p>
+                    <p class="sub-info font-bold">${patient.bmi}</p>
                 </div>
                 <div class="bg-yellow-50 p-3 rounded-lg">
                     <p class="text-gray-600 text-xs">Weight</p>
-                    <p class="font-bold">${patient.weight}kg</p>
+                    <p class="sub-info font-bold">${patient.weight}kg</p>
                 </div>
             </div>
             
@@ -336,45 +336,45 @@ function viewPatientDetails(patientId) {
         <div class="space-y-4">
             <div class="bg-gray-50 p-4 rounded-lg">
                 <p class="text-gray-600 text-sm">Patient ID</p>
-                <p class="font-bold text-lg">${patientId}</p>
+                <p class="font-bold text-lg sub-info">${patientId}</p>
             </div>
             
             <div class="grid grid-cols-2 gap-4">
                 <div class="bg-blue-50 p-4 rounded-lg">
                     <p class="text-gray-600 text-sm">Name</p>
-                    <p class="font-bold">${patient.name}</p>
+                    <p class="font-bold sub-info">${patient.name}</p>
                 </div>
                 <div class="bg-green-50 p-4 rounded-lg">
                     <p class="text-gray-600 text-sm">Age</p>
-                    <p class="font-bold text-lg">${patient.age}</p>
+                    <p class="font-bold text-lg sub-info">${patient.age}</p>
                 </div>
             </div>
             
             <div class="grid grid-cols-2 gap-4">
                 <div class="bg-purple-50 p-4 rounded-lg">
                     <p class="text-gray-600 text-sm">City</p>
-                    <p class="font-bold">${patient.city}</p>
+                    <p class="font-bold sub-info">${patient.city}</p>
                 </div>
                 <div class="bg-yellow-50 p-4 rounded-lg">
                     <p class="text-gray-600 text-sm">Gender</p>
-                    <p class="font-bold capitalize">${patient.gender}</p>
+                    <p class="font-bold capitalize sub-info">${patient.gender}</p>
                 </div>
             </div>
             
             <div class="grid grid-cols-2 gap-4">
                 <div class="bg-orange-50 p-4 rounded-lg">
                     <p class="text-gray-600 text-sm">Height</p>
-                    <p class="font-bold">${patient.height} m</p>
+                    <p class="font-bold sub-info">${patient.height} m</p>
                 </div>
                 <div class="bg-red-50 p-4 rounded-lg">
                     <p class="text-gray-600 text-sm">Weight</p>
-                    <p class="font-bold">${patient.weight} kg</p>
+                    <p class="font-bold sub-info">${patient.weight} kg</p>
                 </div>
             </div>
             
             <div class="bg-indigo-50 p-4 rounded-lg border-2 border-indigo-200">
                 <p class="text-gray-600 text-sm">BMI</p>
-                <p class="font-bold text-2xl text-indigo-600">${patient.bmi}</p>
+                <p class="font-bold text-2xl text-indigo-600 sub-info">${patient.bmi}</p>
             </div>
             
             <div class="bg-gradient-to-r from-green-100 to-blue-100 p-4 rounded-lg border-2 border-green-300">
